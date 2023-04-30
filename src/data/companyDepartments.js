@@ -1,9 +1,14 @@
 const COMPANY_DEPT = [
-    "Marketing",
-    "Sales",
-    "Engineering",
-    "Human Resources",
-    "Legal"
-]
+  "Marketing",
+  "Sales",
+  "Engineering",
+  "Human Resources",
+  "Legal",
+];
 
-export default COMPANY_DEPT;
+const COMPANY_DEPT_OBJECTS = COMPANY_DEPT.map((department) => ({
+  label: department,
+  value: department,
+}));
+
+export default COMPANY_DEPT_OBJECTS;
